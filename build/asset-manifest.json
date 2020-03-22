@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a093577.chunk.css",
+    "main.js": "/static/js/main.d410bb56.chunk.js",
+    "main.js.map": "/static/js/main.d410bb56.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f7c15aa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f7c15aa.js.map",
+    "static/js/2.18b79744.chunk.js": "/static/js/2.18b79744.chunk.js",
+    "static/js/2.18b79744.chunk.js.map": "/static/js/2.18b79744.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.17cca05903412eeab77e7b7daa47fe6f.js": "/precache-manifest.17cca05903412eeab77e7b7daa47fe6f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5a093577.chunk.css.map": "/static/css/main.5a093577.chunk.css.map",
+    "static/js/2.18b79744.chunk.js.LICENSE.txt": "/static/js/2.18b79744.chunk.js.LICENSE.txt",
+    "static/media/dancing-people.png": "/static/media/dancing-people.6b76d391.png",
+    "static/media/logo.png": "/static/media/logo.6a1d8876.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f7c15aa.js",
+    "static/js/2.18b79744.chunk.js",
+    "static/css/main.5a093577.chunk.css",
+    "static/js/main.d410bb56.chunk.js"
+  ]
+}
