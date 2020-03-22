@@ -22,7 +22,7 @@ module.exports = {
       user: 'root',
       host: '134.122.91.92',
       ref: 'origin/master',
-      repo: 'vladromila@github.com:retroserver.git',
+      repo: 'https://github.com/vladromila/retroserver.git',
       path: '/var/app/repositories',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production'
     }
