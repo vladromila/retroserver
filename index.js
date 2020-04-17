@@ -3,9 +3,12 @@ const app = express()
 const port = 8080
 const path = require("path");
 
+app.get('/', (req, res) => {
+    res.redirect("/retrup")
+})
 app.use(express.static(__dirname + '/build'));
 
-app.get('/', (req, res) => res.redirect('/retrup'))
+app.get('/1', (req, res) => res.redirect('/retrup'))
 app.get('/retrup', (req, res) => res.sendFile(path.join(__dirname + '/build/index.html')))
 app.get('/downloadApk', function (req, res) {
     const file = `${__dirname}/apk.apk`;
