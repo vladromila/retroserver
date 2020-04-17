@@ -5,7 +5,7 @@ const path = require("path");
 
 app.use(express.static(__dirname + '/build'));
 
-app.get('/', (req, res) => res.redirect("https://vladromila.ro/retrup"))
+app.get('/', (req, res) => res.redirect('/retrup'))
 app.get('/retrup', (req, res) => res.sendFile(path.join(__dirname + '/build/index.html')))
 app.get('/downloadApk', function (req, res) {
     const file = `${__dirname}/apk.apk`;
