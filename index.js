@@ -9,5 +9,6 @@ app.get('/', (req, res) => {
 app.use(express.static(__dirname + '/build'));
 
 app.get('/retrup', (req, res) => res.sendFile(path.join(__dirname + '/build/index.html')))
+app.get('/retrup/googleplay', (req, res) => res.redirect("https://play.google.com/store/apps/details?id=smarty.retrup.com"))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
