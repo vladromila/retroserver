@@ -13,7 +13,7 @@ app.get('/retrup', (req, res) => res.sendFile(path.join(__dirname + '/build/inde
 app.get('/retrup/googleplay', (req, res) => res.redirect("https://play.google.com/store/apps/details?id=smarty.retrup.com"))
 app.get('/silvia', (req, res) => res.sendFile(path.join(__dirname + '/silvia/index.html')))
 app.get('/silviadownload', function(req, res){
-    const file = `${__dirname}/silvia/Atestat_PorcarasuSilvia.rar`;
+    const file = `${__dirname}/Atestat_PorcarasuSilvia.rar`;
     res.download(file); // Set disposition and send it.
   });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
