@@ -1,0 +1,45 @@
+html, body, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+a {
+	color: #FFFFFF; 
+	font-weight:bold; 
+	text-decoration:none;
+}
+a:hover {
+	color: #FFFF99;
+	font-weight:bold;
+	text-decoration:none;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background: #4287f5 url(images/page_bg.jpg) repeat-x;
+	text-align: center;
+	font: 11px arial, sans-serif;
+	color: #214785;
+	padding: 20px 0 0 0;
+}
+
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 678px;
+  position: relative;
+}
+
